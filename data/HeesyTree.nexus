@@ -1,0 +1,605 @@
+#NEXUS
+[R-package APE, Mon Dec  8 13:21:12 2014]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 296;
+	TAXLABELS
+		Anomalurus_beecrofti
+		Anomalurus_derbianus
+		Anomalurus_pelii
+		Anomalurus_pusillus
+		Spermophilus_parryii
+		Cynomys_ludovicianus
+		Ammospermophilus_leucurus
+		Tamias_striatus
+		Protoxerus_stangeri
+		Tamiasciurus_douglasii
+		Sciurus_carolinensis
+		Sciurus_griseus
+		Microsciurus_isthmius
+		Petaurista_petaurista
+		Petaurista_philippensis
+		Petaurista_alborufus
+		Petaurista_elegans
+		Petaurista_leucogenys
+		Aeretes_melanopterus
+		Petinomys_crinitus
+		Hylopetes_alboniger
+		Ratufa_bicolor
+		Chlorocebus_aethiops
+		Erythrocebus_patas
+		Miopithecus_talapoin
+		Cercocebus_agilis
+		Lophocebus_albigena
+		Papio_hamadryas
+		Theropithecus_gelada
+		Colobus_guereza
+		Procolobus_badius
+		Nasalis_concolor
+		Presbytis_melalophos
+		Semnopithecus_entellus
+		Trachypithecus_cristatus
+		Trachypithecus_johnii
+		Pygathrix_nemaeus
+		Gorilla_gorilla
+		Pan_troglodytes
+		Pongo_pygmaeus
+		Hylobates_agilis
+		Hylobates_lar
+		Hylobates_moloch
+		Hylobates_hoolock
+		Alouatta_belzebul
+		Alouatta_caraya
+		Ateles_belzebuth
+		Ateles_geoffroyi
+		Ateles_paniscus
+		Brachyteles_arachnoides
+		Lagothrix_flavicauda
+		Lagothrix_lagotricha
+		Pithecia_monachus
+		Pithecia_pithecia
+		Callicebus_moloch
+		Callicebus_caligatus
+		Callicebus_torquatus
+		Aotus_nigriceps
+		Aotus_trivirgatus
+		Callicebus_personatus
+		Callimico_goeldii
+		Callithrix_argentata
+		Callithrix_humeralifera
+		Callithrix_pygmaea
+		Callithrix_jacchus
+		Leontopithecus_rosalia
+		Saguinus_oedipus
+		Saguinus_fuscicollis
+		Saguinus_nigricollis
+		Cebus_albifrons
+		Cebus_capucinus
+		Cebus_apella
+		Saimiri_boliviensis
+		Saimiri_oerstedii
+		Saimiri_sciureus
+		Tarsius_bancanus
+		Tarsius_spectrum
+		Tarsius_syrichta
+		Microcebus_coquereli
+		Microcebus_murinus
+		Microcebus_rufus
+		Cheirogaleus_major
+		Cheirogaleus_medius
+		Phaner_furcifer
+		Avahi_laniger
+		Propithecus_diadema
+		Propithecus_tattersalli
+		Propithecus_verreauxi
+		Indri_indri
+		Daubentonia_madagascariensis
+		Eulemur_coronatus
+		Eulemur_fulvus
+		Eulemur_macaco
+		Eulemur_mongoz
+		Eulemur_rubriventer
+		Hapalemur_griseus
+		Hapalemur_simus
+		Lemur_catta
+		Varecia_variegata
+		Lepilemur_dorsalis
+		Lepilemur_leucopus
+		Lepilemur_ruficaudatus
+		Arctocebus_calabarensis
+		Perodicticus_potto
+		Loris_tardigradus
+		Nycticebus_coucang
+		Nycticebus_pygmaeus
+		Euoticus_elegantulus
+		Galago_senegalensis
+		Otolemur_crassicaudatus
+		Galago_alleni
+		Galagoides_demidoff
+		Cynocephalus_variegatus
+		Cynocephalus_volans
+		Ptilocercus_lowii
+		Anathana_ellioti
+		Urogale_everetti
+		Tupaia_belangeri
+		Tupaia_dorsalis
+		Tupaia_glis
+		Tupaia_gracilis
+		Tupaia_javanica
+		Tupaia_minor
+		Tupaia_palawanensis
+		Tupaia_tana
+		Litocranius_walleri
+		Raphicerus_campestris
+		Redunca_redunca
+		Pelea_capreolus
+		Oreotragus_oreotragus
+		Ourebia_ourebi
+		Procapra_gutturosa
+		Mazama_gouazoupira
+		Odocoileus_virginianus
+		Pudu_mephistophiles
+		Cervus_elaphus
+		Hyemoschus_aquaticus
+		Tragulus_javanicus
+		Tragulus_napu
+		Babyrousa_babyrussa
+		Hylochoerus_meinertzhageni
+		Potamochoerus_porcus
+		Sus_barbatus
+		Sus_celebensis
+		Sus_scrofa
+		Catagonus_wagneri
+		Tayassu_pecari
+		Tapirus_pinchaque
+		Tapirus_terrestris
+		Equus_zebra
+		Equus_hemionus
+		Equus_caballus
+		Procyon_lotor
+		Nasua_nasua
+		Bassariscus_astutus
+		Bassaricyon_alleni
+		Bassaricyon_gabbii
+		Potos_flavus
+		Ailurus_fulgens
+		Canis_lupus
+		Cerdocyon_thous
+		Cuon_alpinus
+		Lycaon_pictus
+		Speothos_venaticus
+		Nyctereutes_procyonoides
+		Vulpes_vulpes
+		Alopex_lagopus
+		Urocyon_cinereoargenteus
+		Otocyon_megalotis
+		Panthera_leo
+		Panthera_onca
+		Neofelis_nebulosa
+		Lynx_canadensis
+		Lynx_rufus
+		Profelis_aurata
+		Felis_silvestris
+		Acinonyx_jubatus
+		Crocuta_crocuta
+		Hyaena_hyaena
+		Proteles_cristatus
+		Helogale_hirtula
+		Mungos_mungo
+		Crossarchus_alexandri
+		Ichneumia_albicauda
+		Suricata_suricatta
+		Bdeogale_jacksoni
+		Bdeogale_nigripes
+		Cynictis_penicillata
+		Paracynictis_selousi
+		Herpestes_ichneumon
+		Herpestes_semitorquatus
+		Atilax_paludinosus
+		Dologale_dybowskii
+		Galidictis_fasciata
+		Galidia_elegans
+		Salanoia_concolor
+		Genetta_angolensis
+		Genetta_maculata
+		Genetta_genetta
+		Genetta_tigrina
+		Genetta_servalina
+		Genetta_victoriae
+		Prionodon_pardicolor
+		Poiana_richardsonii
+		Viverra_megaspila
+		Viverra_tangalunga
+		Viverra_zibetha
+		Viverricula_indica
+		Civettictis_civetta
+		Arctictis_binturong
+		Paguma_larvata
+		Arctogalidia_trivirgata
+		Nandinia_binotata
+		Hemigalus_derbyanus
+		Cynogale_bennettii
+		Cryptoprocta_ferox
+		Nyctimene_celaeno
+		Nyctimene_major
+		Thoopterus_nigrescens
+		Cynopterus_brachyotis
+		Eidolon_dupreanum
+		Rousettus_egyptiacus
+		Hypsignathus_monstrosus
+		Eonycteris_major
+		Eonycteris_spelaea
+		Dobsonia_minor
+		Dobsonia_exoleta
+		Acerodon_celebensis
+		Acerodon_leucotis
+		Pteropus_speciosus
+		Pteropus_neohibernicus
+		Pteropus_ornatus
+		Pteropus_hypomelanus
+		Pteropus_admiralitatum
+		Pteropus_alecto
+		Pteropus_conspicillatus
+		Pteropus_anetianus
+		Pteropus_poliocephalus
+		Pteropus_rodricensis
+		Pteropus_rayneri
+		Pteropus_giganteus
+		Pteropus_lylei
+		Pteropus_vampyrus
+		Pteropus_scapulatus
+		Pteropus_seychellensis
+		Pteropus_rufus
+		Pteropus_leucopterus
+		Echinosorex_gymnura
+		Hemiechinus_collaris
+		Erinaceus_europaeus
+		Atelerix_albiventris
+		Choloepus_didactylus
+		Choloepus_hoffmanni
+		Bradypus_tridactylus
+		Bradypus_variegatus
+		Euphractus_sexcinctus
+		Chaetophractus_villosus
+		Priodontes_maximus
+		Elephantulus_myurus
+		Macroscelides_proboscideus
+		Petrodromus_tetradactylus
+		Rhynchocyon_chrysopygus
+		Rhynchocyon_cirnei
+		Rhynchocyon_petersi
+		Dendrohyrax_arboreus
+		Dendrohyrax_dorsalis
+		Heterohyrax_brucei
+		Procavia_capensis
+		Dactylopsila_palpator
+		Petaurus_australis
+		Petauroides_volans
+		Pseudocheirus_caroli
+		Pseudocheirus_forbesi
+		Phalanger_carmelitae
+		Phalanger_vestitus
+		Phalanger_orientalis
+		Phalanger_sericeus
+		Phalanger_lullulae
+		Trichosurus_arnhemensis
+		Trichosurus_vulpecula
+		Trichosurus_caninus
+		Caluromys_derbianus
+		Caluromys_lanatus
+		Caluromys_philander
+		Chironectes_minimus
+		Didelphis_albiventris
+		Didelphis_marsupialis
+		Didelphis_virginiana
+		Philander_andersoni
+		Philander_opossum
+		Lutreolina_crassicaudata
+		Metachirus_nudicaudatus
+		Marmosa_murina
+		Marmosa_robinsoni
+		Monodelphis_americana
+		Monodelphis_brevicaudata
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	Anomalurus_beecrofti,
+		2	Anomalurus_derbianus,
+		3	Anomalurus_pelii,
+		4	Anomalurus_pusillus,
+		5	Spermophilus_parryii,
+		6	Cynomys_ludovicianus,
+		7	Ammospermophilus_leucurus,
+		8	Tamias_striatus,
+		9	Protoxerus_stangeri,
+		10	Tamiasciurus_douglasii,
+		11	Sciurus_carolinensis,
+		12	Sciurus_griseus,
+		13	Microsciurus_isthmius,
+		14	Petaurista_petaurista,
+		15	Petaurista_philippensis,
+		16	Petaurista_alborufus,
+		17	Petaurista_elegans,
+		18	Petaurista_leucogenys,
+		19	Aeretes_melanopterus,
+		20	Petinomys_crinitus,
+		21	Hylopetes_alboniger,
+		22	Ratufa_bicolor,
+		23	Chlorocebus_aethiops,
+		24	Erythrocebus_patas,
+		25	Miopithecus_talapoin,
+		26	Cercocebus_agilis,
+		27	Lophocebus_albigena,
+		28	Papio_hamadryas,
+		29	Theropithecus_gelada,
+		30	Colobus_guereza,
+		31	Procolobus_badius,
+		32	Nasalis_concolor,
+		33	Presbytis_melalophos,
+		34	Semnopithecus_entellus,
+		35	Trachypithecus_cristatus,
+		36	Trachypithecus_johnii,
+		37	Pygathrix_nemaeus,
+		38	Gorilla_gorilla,
+		39	Pan_troglodytes,
+		40	Pongo_pygmaeus,
+		41	Hylobates_agilis,
+		42	Hylobates_lar,
+		43	Hylobates_moloch,
+		44	Hylobates_hoolock,
+		45	Alouatta_belzebul,
+		46	Alouatta_caraya,
+		47	Ateles_belzebuth,
+		48	Ateles_geoffroyi,
+		49	Ateles_paniscus,
+		50	Brachyteles_arachnoides,
+		51	Lagothrix_flavicauda,
+		52	Lagothrix_lagotricha,
+		53	Pithecia_monachus,
+		54	Pithecia_pithecia,
+		55	Callicebus_moloch,
+		56	Callicebus_caligatus,
+		57	Callicebus_torquatus,
+		58	Aotus_nigriceps,
+		59	Aotus_trivirgatus,
+		60	Callicebus_personatus,
+		61	Callimico_goeldii,
+		62	Callithrix_argentata,
+		63	Callithrix_humeralifera,
+		64	Callithrix_pygmaea,
+		65	Callithrix_jacchus,
+		66	Leontopithecus_rosalia,
+		67	Saguinus_oedipus,
+		68	Saguinus_fuscicollis,
+		69	Saguinus_nigricollis,
+		70	Cebus_albifrons,
+		71	Cebus_capucinus,
+		72	Cebus_apella,
+		73	Saimiri_boliviensis,
+		74	Saimiri_oerstedii,
+		75	Saimiri_sciureus,
+		76	Tarsius_bancanus,
+		77	Tarsius_spectrum,
+		78	Tarsius_syrichta,
+		79	Microcebus_coquereli,
+		80	Microcebus_murinus,
+		81	Microcebus_rufus,
+		82	Cheirogaleus_major,
+		83	Cheirogaleus_medius,
+		84	Phaner_furcifer,
+		85	Avahi_laniger,
+		86	Propithecus_diadema,
+		87	Propithecus_tattersalli,
+		88	Propithecus_verreauxi,
+		89	Indri_indri,
+		90	Daubentonia_madagascariensis,
+		91	Eulemur_coronatus,
+		92	Eulemur_fulvus,
+		93	Eulemur_macaco,
+		94	Eulemur_mongoz,
+		95	Eulemur_rubriventer,
+		96	Hapalemur_griseus,
+		97	Hapalemur_simus,
+		98	Lemur_catta,
+		99	Varecia_variegata,
+		100	Lepilemur_dorsalis,
+		101	Lepilemur_leucopus,
+		102	Lepilemur_ruficaudatus,
+		103	Arctocebus_calabarensis,
+		104	Perodicticus_potto,
+		105	Loris_tardigradus,
+		106	Nycticebus_coucang,
+		107	Nycticebus_pygmaeus,
+		108	Euoticus_elegantulus,
+		109	Galago_senegalensis,
+		110	Otolemur_crassicaudatus,
+		111	Galago_alleni,
+		112	Galagoides_demidoff,
+		113	Cynocephalus_variegatus,
+		114	Cynocephalus_volans,
+		115	Ptilocercus_lowii,
+		116	Anathana_ellioti,
+		117	Urogale_everetti,
+		118	Tupaia_belangeri,
+		119	Tupaia_dorsalis,
+		120	Tupaia_glis,
+		121	Tupaia_gracilis,
+		122	Tupaia_javanica,
+		123	Tupaia_minor,
+		124	Tupaia_palawanensis,
+		125	Tupaia_tana,
+		126	Litocranius_walleri,
+		127	Raphicerus_campestris,
+		128	Redunca_redunca,
+		129	Pelea_capreolus,
+		130	Oreotragus_oreotragus,
+		131	Ourebia_ourebi,
+		132	Procapra_gutturosa,
+		133	Mazama_gouazoupira,
+		134	Odocoileus_virginianus,
+		135	Pudu_mephistophiles,
+		136	Cervus_elaphus,
+		137	Hyemoschus_aquaticus,
+		138	Tragulus_javanicus,
+		139	Tragulus_napu,
+		140	Babyrousa_babyrussa,
+		141	Hylochoerus_meinertzhageni,
+		142	Potamochoerus_porcus,
+		143	Sus_barbatus,
+		144	Sus_celebensis,
+		145	Sus_scrofa,
+		146	Catagonus_wagneri,
+		147	Tayassu_pecari,
+		148	Tapirus_pinchaque,
+		149	Tapirus_terrestris,
+		150	Equus_zebra,
+		151	Equus_hemionus,
+		152	Equus_caballus,
+		153	Procyon_lotor,
+		154	Nasua_nasua,
+		155	Bassariscus_astutus,
+		156	Bassaricyon_alleni,
+		157	Bassaricyon_gabbii,
+		158	Potos_flavus,
+		159	Ailurus_fulgens,
+		160	Canis_lupus,
+		161	Cerdocyon_thous,
+		162	Cuon_alpinus,
+		163	Lycaon_pictus,
+		164	Speothos_venaticus,
+		165	Nyctereutes_procyonoides,
+		166	Vulpes_vulpes,
+		167	Alopex_lagopus,
+		168	Urocyon_cinereoargenteus,
+		169	Otocyon_megalotis,
+		170	Panthera_leo,
+		171	Panthera_onca,
+		172	Neofelis_nebulosa,
+		173	Lynx_canadensis,
+		174	Lynx_rufus,
+		175	Profelis_aurata,
+		176	Felis_silvestris,
+		177	Acinonyx_jubatus,
+		178	Crocuta_crocuta,
+		179	Hyaena_hyaena,
+		180	Proteles_cristatus,
+		181	Helogale_hirtula,
+		182	Mungos_mungo,
+		183	Crossarchus_alexandri,
+		184	Ichneumia_albicauda,
+		185	Suricata_suricatta,
+		186	Bdeogale_jacksoni,
+		187	Bdeogale_nigripes,
+		188	Cynictis_penicillata,
+		189	Paracynictis_selousi,
+		190	Herpestes_ichneumon,
+		191	Herpestes_semitorquatus,
+		192	Atilax_paludinosus,
+		193	Dologale_dybowskii,
+		194	Galidictis_fasciata,
+		195	Galidia_elegans,
+		196	Salanoia_concolor,
+		197	Genetta_angolensis,
+		198	Genetta_maculata,
+		199	Genetta_genetta,
+		200	Genetta_tigrina,
+		201	Genetta_servalina,
+		202	Genetta_victoriae,
+		203	Prionodon_pardicolor,
+		204	Poiana_richardsonii,
+		205	Viverra_megaspila,
+		206	Viverra_tangalunga,
+		207	Viverra_zibetha,
+		208	Viverricula_indica,
+		209	Civettictis_civetta,
+		210	Arctictis_binturong,
+		211	Paguma_larvata,
+		212	Arctogalidia_trivirgata,
+		213	Nandinia_binotata,
+		214	Hemigalus_derbyanus,
+		215	Cynogale_bennettii,
+		216	Cryptoprocta_ferox,
+		217	Nyctimene_celaeno,
+		218	Nyctimene_major,
+		219	Thoopterus_nigrescens,
+		220	Cynopterus_brachyotis,
+		221	Eidolon_dupreanum,
+		222	Rousettus_egyptiacus,
+		223	Hypsignathus_monstrosus,
+		224	Eonycteris_major,
+		225	Eonycteris_spelaea,
+		226	Dobsonia_minor,
+		227	Dobsonia_exoleta,
+		228	Acerodon_celebensis,
+		229	Acerodon_leucotis,
+		230	Pteropus_speciosus,
+		231	Pteropus_neohibernicus,
+		232	Pteropus_ornatus,
+		233	Pteropus_hypomelanus,
+		234	Pteropus_admiralitatum,
+		235	Pteropus_alecto,
+		236	Pteropus_conspicillatus,
+		237	Pteropus_anetianus,
+		238	Pteropus_poliocephalus,
+		239	Pteropus_rodricensis,
+		240	Pteropus_rayneri,
+		241	Pteropus_giganteus,
+		242	Pteropus_lylei,
+		243	Pteropus_vampyrus,
+		244	Pteropus_scapulatus,
+		245	Pteropus_seychellensis,
+		246	Pteropus_rufus,
+		247	Pteropus_leucopterus,
+		248	Echinosorex_gymnura,
+		249	Hemiechinus_collaris,
+		250	Erinaceus_europaeus,
+		251	Atelerix_albiventris,
+		252	Choloepus_didactylus,
+		253	Choloepus_hoffmanni,
+		254	Bradypus_tridactylus,
+		255	Bradypus_variegatus,
+		256	Euphractus_sexcinctus,
+		257	Chaetophractus_villosus,
+		258	Priodontes_maximus,
+		259	Elephantulus_myurus,
+		260	Macroscelides_proboscideus,
+		261	Petrodromus_tetradactylus,
+		262	Rhynchocyon_chrysopygus,
+		263	Rhynchocyon_cirnei,
+		264	Rhynchocyon_petersi,
+		265	Dendrohyrax_arboreus,
+		266	Dendrohyrax_dorsalis,
+		267	Heterohyrax_brucei,
+		268	Procavia_capensis,
+		269	Dactylopsila_palpator,
+		270	Petaurus_australis,
+		271	Petauroides_volans,
+		272	Pseudocheirus_caroli,
+		273	Pseudocheirus_forbesi,
+		274	Phalanger_carmelitae,
+		275	Phalanger_vestitus,
+		276	Phalanger_orientalis,
+		277	Phalanger_sericeus,
+		278	Phalanger_lullulae,
+		279	Trichosurus_arnhemensis,
+		280	Trichosurus_vulpecula,
+		281	Trichosurus_caninus,
+		282	Caluromys_derbianus,
+		283	Caluromys_lanatus,
+		284	Caluromys_philander,
+		285	Chironectes_minimus,
+		286	Didelphis_albiventris,
+		287	Didelphis_marsupialis,
+		288	Didelphis_virginiana,
+		289	Philander_andersoni,
+		290	Philander_opossum,
+		291	Lutreolina_crassicaudata,
+		292	Metachirus_nudicaudatus,
+		293	Marmosa_murina,
+		294	Marmosa_robinsoni,
+		295	Monodelphis_americana,
+		296	Monodelphis_brevicaudata
+	;
+	TREE * UNTITLED = [&R] (((((((1:23.6,2:23.6,3:23.6,4:23.6)'16_Anomalurinae_Anomalurus':59.2,(((((5:8.1,6:8.1)'473':3.8,7:11.9)'472':14.3,8:26.2)'471':5,9:31.2)'470':10.3,(((10:14.2,((11:4.3,12:4.3)'574':1.6,13:5.9)'566':8.3)'563_Sciurinae2*':8.9,(((((14:3.5,15:3.5)'604':6.1,(16:8.3,17:8.3)'605':1.3)'603':0.4,18:10)'601_Petaurista':5.8,19:15.8)'599':3,(20:10.9,21:10.9)'621':7.9)'598_Petauristinae':4.3)'562':1.4,22:24.5)'561':17)'467':41.3)'10_Rodentia':9,((((((((((23:5.5,24:5.5)'769':8.2,25:13.7)'758':2.2,(26:14.6,(27:10,(28:8.1,29:8.1)'779':1.9)'778':4.6)'774':1.3)'756_Cercopithecinae':3.8,((30:10,31:10)'794':3.5,(32:8.8,((33:6.6,34:6.6,35:6.6,36:6.6)'804':2.1,37:8.7)'803':0.1)'801':4.7)'793_Colobinae':6.2)'755_Cercopithecidae':14.7,(((38:11.5,39:11.5)'815':6.5,40:18)'814_Hominidae':3.4,((41:4,42:4,43:4)'822':3.7,44:7.7)'820':13.7)'813':13)'754':16.6,((((45:6,46:6)'828_Alouattinae_Alouatta':13.1,(((47:7.5,48:7.5)'833':0.1,49:7.6)'832_Ateles':7.8,(50:12.8,(51:5.7,52:5.7)'838_Lagothrix':7.1)'837':2.6)'831_Atelinae':3.7)'827':2.9,((53:9.3,54:9.3)'844_Pithecia':10.3,(55:10.6,(56:10.4,57:10.4)'850':0.2)'846_Callicebinae*_Callicebus*':9)'839':2.4)'826_Cebidae1*':1.2,(58:20.2,59:20.2,60:20.2,(((61:12.7,(((62:1.1,63:1.1)'861':3.5,64:4.6)'860':1,65:5.6)'859_Callithrix':7.1)'858':1.8,66:14.5)'857':1.2,(67:8.6,(68:5.3,69:5.3)'878':3.3)'870_Saguinus':7.1)'856_Callitrichidae':4.5,(((70:2.7,71:2.7)'883':3.1,72:5.8)'881_Cebus':12.2,(73:3.1,(74:1.6,75:1.6)'886':1.5)'884_Saimiri':14.9)'880_Cebidae2*_Cebinae':2.2)'855':3)'825':27.8)'753':30.7,(76:9.3,77:9.3,78:9.3)'887_Tarsiidae_Tarsius':72.4)'752':2.8,(((((79:21.9,(80:9.4,81:9.4)'894':12.5)'893_Microcebus':12,(82:16.1,83:16.1)'895_Cheirogaleus':17.8)'891_Cheirogaleinae':0.2,84:34.1)'890_Cheirogaleidae':12.9,((((85:23.5,(86:6.3,87:6.3,88:6.3)'900_Propithecus':17.2)'899':4.5,89:28)'898_Indridae':12,90:40)'897':4.5,((91:7.4,((92:7.1,93:7.1)'904':0.1,(94:7.1,95:7.1)'905':0.1)'903':0.2)'902_Eulemur':15.6,(96:16,97:16)'906_Hapalemur':7,98:23,99:23)'901_Lemuridae':21.5,(100:10.3,101:10.3,102:10.3)'907_Megaladapidae_Lepilemur':34.2)'896':2.5)'889':25.8,(((103:18.7,104:18.7)'910':16.1,(105:31.4,(106:14.6,107:14.6)'913_Nycticebus':16.8)'912':3.4)'909_Loridae':4.1,(((108:16.3,109:16.3,110:16.3)'917':2.3,111:18.6)'916':5.7,112:24.3)'915':14.6)'908':33.9)'888':11.7)'751_Primates':4,(113:15,114:15)'921_Dermoptera_Cynocephalidae_Cynocephalus':73.5)'750':3.1,(115:31.7,((116:6.3,117:6.3)'924':19.9,(118:25.8,119:25.8,120:25.8,121:25.8,122:25.8,123:25.8,124:25.8,125:25.8)'927_Tupaia':0.4)'923_Tupaiinae':5.5)'922_Scandentia_Tupaiidae':59.9)'749':0.2)'8_Euarchontoglires':4.3,((((((((126:23,127:23,(128:18.4,129:18.4)'996':4.6,130:23,131:23,132:23)'939':4.7,((133:4.2,134:4.2,135:4.2)'1029':14,136:18.2)'1023_Cervidae':9.5)'937':21,(137:18,(138:12.9,139:12.9)'1049_Tragulus':5.1)'1048_Tragulidae':30.7)'935':19.1,((140:26.3,(141:21.9,142:21.9,(143:9.6,144:9.6,145:9.6)'1097_Sus':12.3)'1095_Suinae':4.4)'1093_Suidae':20.8,(146:8.6,147:8.6)'1100':38.5)'1092':20.7)'933':15.6,((148:2.9,149:2.9)'1113':52.9,((150:23.3,151:23.3)'1115':0.2,152:23.5)'1114_Equidae_Equus':32.3)'1106_Perissodactyla':27.6)'931':1.2,((((((153:14.9,154:14.9)'1175':0.2,155:15.1)'1174_Procyoninae':10.2,((156:13.3,157:13.3)'1181_Bassaricyon':1.9,158:15.2)'1180_Potosinae':10.1)'1173_Procyonidae':12.2,159:37.5)'1123':19,(((160:3.5,161:3.5,162:3.5,163:3.5,164:3.5)'1217':2.9,165:6.4)'1216':0.7,(((166:1.8,167:1.8)'1229':5,168:6.8)'1226':0.2,169:7)'1225':0.1)'1215_Canidae':49.4)'1120':6.9,((((((((170:5.9,171:5.9)'1250':2.1,172:8)'1247':2.7,(173:8.7,174:8.7)'1252_Felinae1*_Lynx':2)'1245':0.2,175:10.9)'1244':0.2,176:11.1)'1242':5.7,177:16.8)'1239_Felidae':21.8,((178:24.1,179:24.1)'1274_Hyaeninae':0.2,180:24.3)'1273_Hyaenidae':14.3)'1238':3,((((((((((181:9.3,182:9.3)'1284':0.4,183:9.7)'1283':1.7,184:11.4)'1282':0.5,185:11.9)'1281':3.2,(186:7,187:7)'1288_Bdeogale':8.1)'1280':2.8,(188:4.8,189:4.8)'1289':13.1)'1279':0.2,(190:16.9,191:16.9)'1290_Herpestes':1.2)'1278':5.2,192:23.3,193:23.3)'1277_Herpestinae':12.4,(194:14.8,195:14.8,196:14.8)'1294_Galidiinae':20.9)'1276_Herpestidae':1.1,(((((((197:3.7,198:3.7)'1306':3.3,(199:5.8,200:5.8)'1307':1.2)'1302':1.2,(201:7.7,202:7.7)'1308':0.5)'1301_Genetta':3.6,(203:10.7,204:10.7)'1309':1.1)'1300':7.7,(((205:5.4,(206:4.1,207:4.1)'1315':1.3)'1313_Viverra':5.4,208:10.8)'1312':2.9,209:13.7)'1311':5.8)'1298_Viverrinae':4.4,((((210:5.8,211:5.8)'1323':10.8,212:16.6)'1318_Paradoxurinae':5.9,213:22.5)'1317':0.5,(214:14.2,215:14.2)'1324_Hemigalinae':8.8)'1316':0.9)'1297':12.7,216:36.6)'1296_Viverridae':0.2)'1275':4.8)'1237':21.8)'1119_Carnivora':21.2)'930':0.2,(((217:7.3,218:7.3)'1336_Nyctimene':17.4,(219:21,220:21)'1342':3.7)'1334_Pteropodinae1*':0.4,((221:13.3,222:13.3,223:13.3)'1357':11.3,((224:4.8,225:4.8)'1375_Eonycteris':19.6,((226:1.2,227:1.2)'1387_Dobsonia':21.2,((228:6.3,229:6.3)'1394_Acerodon':6.2,(230:12.4,231:12.4,232:12.4,233:12.4,234:12.4,235:12.4,236:12.4,237:12.4,238:12.4,239:12.4,240:12.4,(241:4,242:4,243:4)'1405':8.4,244:12.4,(245:5.8,246:5.8)'1407':6.6,247:12.4)'1395_Pteropus':0.1)'1393':9.9)'1385':2)'1373':0.2)'1356':0.5)'1333_Pteropodidae':59.7)'929':3,(248:62.3,(249:18.6,(250:13.2,251:13.2)'1798':5.4)'1792_Erinaceinae':43.7)'1786_Erinaceidae':25.5)'928_Laurasiatheria':8.3)'7_Boreoeutheria':2.2,(((252:4.7,253:4.7)'1860_Megalonychidae_Choloepinae_Choloepus':26.5,(254:1.1,255:1.1)'1862':30.1)'1859_Pilosa1*':39.3,((256:7.9,257:7.9)'1869':24.4,258:32.3)'1868':38.2)'1858_Atlantogenata1*_Xenarthra':27.8)'6':0.2,((((259:20.8,260:20.8)'1898':1.2,261:22)'1897':25.5,(262:23.2,263:23.2,264:23.2)'1907_Rhynchocyon':24.3)'1896_Macroscelidea_Macroscelididae':42.9,(((265:18.3,266:18.3)'1915_Dendrohyrax':0.2,267:18.5)'1914':0.1,268:18.6)'1913_Hyracoidea_Procaviidae':71.8)'1877_Atlantogenata2*_Afrotheria':8.1)'5_Eutheria':48.9,((((269:30,270:30)'1930_Petauridae':2.7,(271:27.5,(272:11.7,273:11.7)'1943':15.8)'1934_Pseudocheiridae':5.2)'1926':12.4,(((((274:5.2,275:5.2)'1954':2.2,276:7.4)'1953':0.7,277:8.1)'1952':3,278:11.1)'1951':15,((279:4.5,280:4.5)'1961':3.4,281:7.9)'1960_Trichosurus':18.2)'1946_Phalangeridae':19)'1925':37.4,((282:4.4,283:4.4,284:4.4)'2083_Caluromys':51.8,(((285:18.6,((((286:16.8,287:16.8)'2091':0.2,288:17)'2090_Didelphis':0.1,(289:5.4,290:5.4)'2093_Philander':11.7)'2089':0.2,291:17.3)'2088':1.3)'2087':18.4,292:37)'2086':15.6,((293:34.5,294:34.5)'2106':11.3,(295:30.5,296:30.5)'2108_Monodelphis':15.3)'2105':6.8)'2084_Didelphinae':3.6)'2080_Didelphimorphia_Didelphidae':26.3)'1918_Metatheria':64.9)'4';
+END;
